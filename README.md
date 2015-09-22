@@ -1,5 +1,4 @@
-# SpringMvcHibernateTiles
-SpringMvcHibernateTiles
-Spring 4
-Hibernate 4
-Apache Tiles 3
+<br/>Maven
+<br/>Spring 4
+<br/>Hibernate 4
+<br/>Apache Tiles 3
