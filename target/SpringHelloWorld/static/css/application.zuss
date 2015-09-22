@@ -1,0 +1,72 @@
+/* ZUSS  extension using less only for style code */
+
+@nice-blue: #5B83AD;
+@light-blue: @nice-blue + #111;
+@dark-orange: orange - #010203;
+@white: #fff;
+@grey: #cfd2da;
+@dark-grey: #55595c;
+@dark-theme: #252830;
+
+html, body {
+  width: 100%;
+  height:100%;
+  color: @grey;
+  background-color: @dark-theme;
+  overflow-y: hidden;
+}
+.dark-text{
+  color: @dark-theme;
+}
+.dark-theme{
+  background-color: @dark-theme;
+}
+
+i#search-close{
+  position: relative;
+  right: -190px;
+  margin-top: 14px;
+  color: @dark-theme;
+  cursor: pointer;
+}
+i#search-go{
+  cursor: pointer;
+}
+
+nav ul li:hover > a, nav ul li.active > a{
+  color: @grey;
+}
+table{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+table.bordered > tbody > tr , thead, td, th {
+  border: 1px solid @grey;
+}
+.dropdown-content li > a, .dropdown-content li > span {
+  font-size: 1.2rem;
+  color: @dark-grey;
+  display: block;
+  padding: 1rem 1rem;
+}
+
+.select-wrapper span.caret {
+  color: @dark-grey;
+  position: absolute;
+  right: 0;
+  top: 12px;
+  font-size: 20px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+  margin: 5px 0 15px 0;
+}
+
+#main{
+  width: 100%;
+  height: 70%;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
